@@ -12,4 +12,10 @@ public class DockerController {
 		return "welcome to docker demo";
 	}
 	
+	@GetMapping("/gitdemo")
+	public String gitdemo() 
+	{
+		return "welcome to git demo";
+	}
+	
 }
